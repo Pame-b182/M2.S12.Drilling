@@ -1,0 +1,154 @@
+.navbar {
+    background-image:url(/Assets/img/fondo.jpg);
+    background-size: 40%;
+}
+
+h1 {
+    font-size: 3.125rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imgAltura{
+    height: 37.5rem;
+}
+
+.tarjeta{
+text-align: center;
+margin: 0.625rem;
+}
+
+.imgTarjetas{
+    height: 115%;
+}
+
+.subtitulo {
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+    padding: 1.25rem;
+}
+
+.mensaje {
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar-brand img{ 
+    width: 10%; 
+}
+
+@media (max-width: 768px){
+    #formContacto{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    #formReserva{
+        display: none;
+    }
+}
+.myModal2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    /*para que el elemento se pose sobre lo demás*/
+    z-index: 1;
+    /*El elemento queda en una posición fija*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.myModal__content2{
+    background-color: black;
+    /*margen arriba y abajo 10% y a los lados auto*/
+    margin: 5% auto;
+    width: 50%;
+    height: 70%;
+    border: 1% solid #888;
+    padding: 10px;
+    /**redondea los bordes*/
+    border-radius: 5%;
+}
+
+#modal_close2{
+    position:fixed;
+    left: 72%;
+    z-index: 5;
+}
+
+#imgCarrusel1{
+    border-radius: 5%;
+}
+
+#imgCarrusel2{
+    border-radius: 5%;
+    height: 455px;
+}
+
+#imgCarrusel3{
+    border-radius: 5%;
+    width: 597px;
+    height: 455px;
+}
+
+.myModal1{
+    display: none;
+    width: 100%;
+    height: 100%;
+    /*para que el elemento se pose sobre lo demás*/
+    z-index: 1;
+    /*El elemento queda en una posición fija*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.myModal__content1{
+    background-color: black;
+    /*margen arriba y abajo 10% y a los lados auto*/
+    margin: 5% auto;
+    /*la tarjeta ocupa el 40% del contenedor*/
+    width: 50%;
+    height: 90%;
+    border: 1% solid #888;
+    padding: 10px;
+    /**redondea los bordes*/
+    border-radius: 5%;
+}
+
+#modalTarjeta{
+    width: 80%;
+    margin: 10% auto;
+}
+
+#modal_close1{
+    position:fixed;
+    left: 71%;
+}
+
+.piePagina {
+    background-image: url(/Assets/img/fondo.jpg);
+    background-size: 70%;
+    color: white;
+    padding: 3.75rem;
+}
+
+.footerp {
+    text-align: left;
+}
